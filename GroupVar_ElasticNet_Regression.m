@@ -43,8 +43,8 @@ disp(cumsum(explained_Healthcare));
 Healthcare_PC1 = score_Healthcare(:,1) ; 
 Healthcare_PC2 = score_Healthcare(:,2) ; 
 
-other_variables = values(:,[11,16,17,20,21,24,25,26]) ; 
-other_varnames = variableNames([11,16,17,20,21,24,25,26]) ; 
+other_variables = values(:,[11,16,17,20,21,24,25,26,27]) ; 
+other_varnames = variableNames([11,16,17,20,21,24,25,26,27]) ; 
 
 
 mr = values(:,1) ; 
