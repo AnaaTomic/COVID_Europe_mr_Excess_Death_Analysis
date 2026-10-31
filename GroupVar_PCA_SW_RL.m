@@ -78,8 +78,8 @@ PublicHealth_PC2 = score_PublicHealth(:,2) ;
 %% Variables that were not assigned to a conceptual group were retained
 % and entered separately as individual predictors
 
-other_variables = values(:,[11,16,17,20,21,24,25,26]) ; 
-other_varnames = variableNames([11,16,17,20,21,24,25,26]) ; 
+other_variables = values(:,[11,16,17,20,21,24,25,26,27]) ; 
+other_varnames = variableNames([11,16,17,20,21,24,25,26,27]) ; 
 
 data_mat = [prosperity_PC1,Cardiometabolic_PC1,Cardiometabolic_PC2, age_PC1,age_PC2,Healthcare_PC1, Healthcare_PC2, other_variables] ; 
 data_mat_norm = normalize(data_mat) ; 
